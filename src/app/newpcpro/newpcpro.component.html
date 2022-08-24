@@ -1,0 +1,168 @@
+<div class="p-5 container bg-light" style="border-radius: 7px; border: 1px solid blueviolet;">
+    <form action="https://formspree.io/f/xyyvzylo" method="POST">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputgpu">1. Carte Graphique</label>
+            <input name="pro_gpu" class="form-control" id="inputgpu" placeholder="GTX 750 Ti" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputcpu">2. Processeur</label>
+            <input name="pro_cpu" class="form-control" id="inputcpu" placeholder="Intel Core i5-11400" required>
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="inputram">3. RAM</label>
+            <input name="pro_ram" type="text" class="form-control" id="inputram" placeholder="Corsair Vengeance 16GB">
+            <div class="p-1">
+                Ou
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="pro_ram_compatible" id="gridRadios1" value="1" unchecked>
+                    <label class="form-check-label" for="gridRadios1">
+                        Choisir Compatible (Si aucun modèle spécifique)
+                    </label>
+                  </div>
+            </div>
+          </div>
+        <div class="form-group">
+          <label for="inputmotherboard">4. Carte Mère</label>
+          <input name="pro_motherboard" type="text" class="form-control" id="inputmotherboard" placeholder="MSI B450">
+        <div class="p-1">
+            Ou
+            <div class="form-check">
+                <input name="pro_motherboard_compatible" class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                    Choisir Compatible (Si aucun modèle spécifique)
+                </label>
+              </div>
+        </div>
+        </div>
+        
+          <div class="form-group">
+            <label for="inputstorage">5. Stockage</label>
+            <div class="p-1 form-group row">
+                <label for="inputhdd" class="col-sm-2 col-form-label">HDD:</label>
+                <div class="col-sm-10">
+                  <input name="pro_storage_HDD" type="text" class="form-control" id="inputhdd" placeholder="Seagate 2TB">
+                </div>
+              </div>
+              <div class="p-1 form-group row">
+                <label for="inputsata" class="col-sm-2 col-form-label">SATA SSD:</label>
+                <div class="col-sm-10">
+                  <input name="pro_storage_SATA_SSD" type="text" class="form-control" id="inputsata" placeholder="Samsung EVO 512GB">
+                </div>
+              </div>
+              <div class="p-1 form-group row">
+                <label for="inputm2" class="col-sm-2 col-form-label">M.2 SSD:</label>
+                <div class="col-sm-10">
+                  <input name="pro_storage_M2_SSD" type="text" class="form-control" id="inputm2" placeholder="Samsung EVO 256GB">
+                </div>
+              </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputsource">6. Source de Courant</label>
+            <input name="pro_power_source" type="text" class="form-control" id="inputsource" placeholder="Corsair CX 650W">
+            <div class="p-1">
+              Ou
+              <div class="form-check">
+                  <input name="pro_power_source_compatible" class="form-check-input" type="checkbox" id="gridRadios1" value="1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                      Choisir Compatible (Si aucun modèle spécifique)
+                  </label>
+                </div>
+          </div>
+            </div>
+
+            <div class="form-group">
+                <label for="inputcables">7. Câbles</label>
+                <input name="pro_cables" type="text" class="form-control" id="inputcables" placeholder="Tressés blancs">
+                <div class="p-1">Ou</div>
+                <div class="form-check">
+                    <input name="pro_cables_default" class="form-check-input" type="checkbox" id="gridRadios1" value="1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Par défaut
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputcables">8. Refroidisseur CPU</label>
+                    <input name="pro_cpu_cooler" type="text" class="form-control" id="inputcables" placeholder="NZXT Kraken Z63 280 mm">
+                    <div class="p-1">Ou</div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="pro_cpu_cooler_default" id="gridRadios1" value="1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Par défaut
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputcables">9. Ventilateurs</label>
+                        <input name="pro_fans" type="text" class="form-control" id="inputcables" placeholder="Corsair LL 120mm x2 ">
+                        <div class="p-1">Ou</div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="pro_fans_default" id="gridRadios1" value="1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                              Par défaut (Inclus avec le boîtier)
+                            </label>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputcables">10. Boîtier</label>
+                            <input name="pro_case" type="text" class="form-control" id="inputcables" placeholder="NZXT H510">
+                            <div class="p-1">Ou</div>
+                            <div class="form-check">
+                                <input name="pro_case_default" class="form-check-input" type="checkbox" id="gridRadios1" value="1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                  Choisir Compatible
+                                </label>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputcables">11. Autre (Accessoires RGB, etc.)</label>
+                                <input name="pro_other" type="text" class="form-control" id="inputcables">
+                                </div>
+
+                                <div class="pt-2 form-group">
+                                  <label for="exampleFormControlTextarea1">12. Si vous avez des spécifications particulières ou des questions, écrivez les ici.</label>
+                                      <div class="p-1">    
+                                          <textarea name="noob_other_message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                              </div>
+              <p class="pt-2"> On est presque là ! Faites-nous part de vos informations et nous vous contacterons dans les plus brefs délais.</p>
+              <div class="form-row">
+                <div class="form-group col-md-3" style="display: inline-block; margin-right: 5%;">
+                    <label for="inputPassword4">Nom complet</label>
+                    <input name="name" type="text" class="form-control" id="inputPassword4" required>
+                  </div>
+                <div class="form-group col-md-3" style="display: inline-block; margin-right: 5%;">
+                  <label for="inputEmail4">Email</label>
+                  <input name="email" type="email" class="form-control" id="inputEmail4" placeholder="xdy@example.ca">
+                </div>
+                <div class="form-group col-md-3" style="display:inline-block;">
+                    <label for="inputEmail4">Numéro de téléphone</label>
+                    <input name="phone_number" type="text" class="form-control" id="inputEmail4" required>
+                  </div>
+              </div>
+              <div class="pt-2 form-group">
+                <label for="inputAddress">Adresse</label>
+                <input name="adresse" type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="pt-2 form-row">
+                <div class="form-group col-md-3" style="display: inline-block; margin-right: 5%;">
+                  <label for="inputCity">Ville</label>
+                  <input name="city" type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="pt-2 form-group col-md-3" style="display: inline-block; margin-right: 5%;">
+                  <label for="inputState">Province</label>
+                  <select id="inputState" class="form-control" disabled>
+                    <option selected>Québec</option>
+                    <option>...</option>
+                  </select>
+                </div>
+              </div>
+            <div class="pt-3">
+                <button type="submit" class="btn" style="background-color: blueviolet; color:aliceblue;">Allons-y!</button>
+            </div>
+      </form>
+</div>
+
