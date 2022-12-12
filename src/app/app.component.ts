@@ -5,6 +5,7 @@ import { NewpcComponent } from './newpc/newpc.component';
 import { NewpcnoobComponent } from './newpcnoob/newpcnoob.component';
 import { Router, RouterOutlet } from '@angular/router';
 import { NouvelOrdinateurComponent } from './nouvel-ordinateur/nouvel-ordinateur.component';
+import * as AOS from 'aos';
 
 
 @Component({
@@ -21,6 +22,10 @@ export class AppComponent {
     this.router.navigate([`${pageName}`]);
 
   }
+
+  ngOnInit(){
+    AOS.init();
+    }
 
   /*constructor(private dialogRef : MatDialog){}
 

@@ -16,5 +16,5 @@ export class NewpcnoobComponent implements OnInit {
   ngOnInit(): void {
 
   }
-
+  
 }

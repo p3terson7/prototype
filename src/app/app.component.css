@@ -1,0 +1,85 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+/* The sidebar menu */
+.navbar {
+	width: 100%;
+	position: sticky;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: color #292b2c;
+	overflow-x: hidden;
+	padding-top: 20px;
+	box-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);
+  }
+  
+  /* The navigation menu links */
+  .navbar a {
+	padding: 8px 8px 8px 8px;
+	text-decoration: none;
+	color: #818181;
+	display: block;
+  }
+
+  #links {
+	font-size: 20px;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .navbar a:hover {
+	color: white;
+  }
+  
+  /* Style page content */
+  .main {
+	padding: 0px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+	.navbar {padding-top: 15px;}
+	.navbar a {font-size: 18px;}
+  }
+
+/*
+.block {
+	position: relative;
+	margin: 300px auto 0;
+	width: auto;
+	height: auto;
+    background-image: url("../assets/img/wicked.jpg");
+}
+
+.block:before, .block:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: #9D50BB;
+        background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB); 
+        background: linear-gradient(to right, #6E48AA, #9D50BB); 
+
+
+
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block:after {
+	filter: blur(50px);
+}
+*/

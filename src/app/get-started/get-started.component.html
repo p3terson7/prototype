@@ -1,0 +1,28 @@
+<div class="pt-3 pb-3 container vh-100" id="get">
+    <div class="row" style="">
+      <div><span class="">Bienvenue à bord moussaillon.</span><span></span></div>
+      <div class="col">       
+          <a (click)="goToPage('nouvelOrdi')" style="text-decoration: none;">
+        <div class="card" id="card1">
+          <img class="img-responsive" src="../assets/img/n1.png" id="mypic2">
+          <div class="card-body">
+            <h3 class="card-title display-2 fw-bold" style="font-size: 35px;">J'AI BESOIN D'UN NOUVEL <div class="clearfix pt-1"></div> ORDINATEUR</h3>
+            <p class="card-text text-secondary display-6" style="font-size: 15px;">PROTOTYPE peut construire l'ordinateur approprié à VOS besoins en plus de vous faire économiser!</p>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="col">
+      <a routerLink="/oldpcs" routerLinkActive="active" style="text-decoration: none;">
+        <div class="card" id="card2">
+          <img class="img-responsive" src="../assets/img/wrench.png" id="mypic2">
+          <div class="card-body">
+            <h3 class="card-title display-2 fw-bold text-dark" style="font-size: 35px;">J'AI DÉJÀ <div class="clearfix pt-1"></div> UN ORDINATEUR</h3>
+            <p class="card-text text-secondary display-6" style="font-size: 15px;">Besoin d'un service d'entretien ou de mise à niveau pour votre machine actuelle? PROTOTYPE s'en occupe!</p>
+          </div>
+        </div>
+      </a>
+      </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
